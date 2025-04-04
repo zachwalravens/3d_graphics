@@ -136,6 +136,19 @@ function MyCanvas() {
       <p>mouse location: {mousePosition[0]}, {mousePosition[1]}</p>
       <p>viewer location: {viewerCoordinates[0]}, {viewerCoordinates[1]}, {viewerCoordinates[2]}</p>
       <p>view angles: {viewAngle[0]}, {viewAngle[1]}</p>
+      <p>
+      <b>Controls: <br /> <br /></b>
+      W - move forwards <br />
+      S - move backwards <br />
+      A - move left <br />
+      D - move right <br />
+      E - move up <br />
+      Q - move down <br />
+      Up Arrow - look upwards <br />
+      Down Arrow - look downwards <br />
+      Left Arrow - look left <br />
+      Right Arrow - look right <br />
+      </p>
     </>
   );
 }
